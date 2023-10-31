@@ -1,0 +1,43 @@
+/* Container for the grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
+    gap: 20px; /* Add some spacing between columns */
+  }
+  
+  /* Style for each video card */
+  .video-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the thumbnail image */
+  .thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the video title */
+  .thumbnail-title {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Style for the engagement post ID */
+  .engagement-post-id {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Style for the "View Details" button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
